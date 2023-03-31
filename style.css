@@ -15,8 +15,23 @@ header li,
 
 }
 
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  display: flex;
+}
+
 #texto1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+
 }
