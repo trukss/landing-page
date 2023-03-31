@@ -6,10 +6,11 @@ body {
 header h1 {
   font-size: 24px;
   color: #f9faf8;
+  margin-left: 220px;
 }
 
 header li,
-.caixa1 p {
+.caixa1 .texto1 {
   font-size: 18px;
   color: #e5e7eb;
 
@@ -24,7 +25,11 @@ li {
   display: flex;
 }
 
-#texto1 {
+header ul {
+  padding-left: 20px;
+}
+
+.titulo {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
@@ -32,20 +37,41 @@ li {
 
 header {
   display: flex;
-  gap: 255px;
+  gap: 350px;
+}
+
+h1,
+header ul {
+  margin-top: 0;
 }
 
 .secao1 {
   display: flex;
-
+  gap: 30px;
+  margin-top: 60px;
 }
 
-img {
+.img {
   background: gray;
+  padding-top: 80px;
+  text-align: center;
+
 }
 
-.caixa1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.texto1 {
+  margin-left: 220px;
+}
+
+.texto1,
+.img {
+  width: 400px;
+}
+
+.button {
+  background-color: #3982f6;
+  margin-top: 5px;
+  padding: 3px;
+  text-align: center;
+  width: 80px;
+  border-radius: 5px;
 }
