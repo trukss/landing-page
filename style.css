@@ -139,5 +139,45 @@ header ul {
 
 .autor {
   font-weight: bold;
+}
 
+.secao4 {
+  height: 250px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.singup {
+  background-color: #3982f6;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 120px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.singuptitulo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.singuptitulo,
+.singupbutton {
+
+  color: #f9faf8;
+}
+
+.singuptexto {
+  color: #e5e7eb;
+}
+
+.singupbutton {
+  border: solid 1px white;
+  padding: 5px 20px 5px 20px;
+  border-radius: 10px;
 }
