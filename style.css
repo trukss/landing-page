@@ -1,5 +1,12 @@
-body {
+header,
+.secao1,
+footer {
   background-color: #1f2937;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -50,8 +57,8 @@ header ul {
 .secao1 {
   display: flex;
   gap: 30px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .img {
@@ -180,4 +187,12 @@ header ul {
   border: solid 1px white;
   padding: 5px 20px 5px 20px;
   border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
 }
